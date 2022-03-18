@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Product Search Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+    <listener class-name="com.automation.base.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="ProductSearchTests(failed)" verbose="0">
+    <classes>
+      <class name="com.automation.tests.ProductSearchTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="test_search_products" invocation-numbers="0 1"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.automation.tests.ProductSearchTests -->
+    </classes>
+  </test> <!-- ProductSearchTests(failed) -->
+</suite> <!-- Failed suite [Product Search Suite] -->

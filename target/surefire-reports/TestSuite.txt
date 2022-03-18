@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 30.417 sec <<< FAILURE!
+test_search_products(com.automation.tests.ProductSearchTests)  Time elapsed: 7.652 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	Search Result ProductName:Srhythm NC25 Active Noise Cancelling Headphones Bluetooth 5.0, ANC Stereo Headset Over-Ear with Hi-Fi,Mic,50H Playtime,Voice Assistant,Low Latency Game Mode contains no searched Productname:Srhythm NC25 Active Noise Cancelling Headphones Bluetooth 5.0, ANC Stereo Headset Over-Ear with Hi-Fi,Mic,50H Playtime,Voice Assistant,Low Latency Game Mode expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.automation.page.ProductPage.verifyProductSearchResults(ProductPage.java:160)
+	at com.automation.tests.ProductSearchTests.test_search_products(ProductSearchTests.java:40)
+
+test_search_products(com.automation.tests.ProductSearchTests)  Time elapsed: 4.681 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	Search Result ProductName:LG Electronics 34UB88-P 34" LED/LCD Monitor 34X14 HDMI USB,black contains no searched Productname:LG Electronics 34UB88-P 34" LED/LCD Monitor 34X14 HDMI USB,black expected [true] but found [false],
+	Search Result ProductName:LG 34" UltraWide IPS FreeSync LED Monitor 2560 x 1080 21:9 34WL600-B contains no searched Productname:LG 34" UltraWide IPS FreeSync LED Monitor 2560 x 1080 21:9 34WL600-B expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.automation.page.ProductPage.verifyProductSearchResults(ProductPage.java:160)
+	at com.automation.tests.ProductSearchTests.test_search_products(ProductSearchTests.java:40)
+

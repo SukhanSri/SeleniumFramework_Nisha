@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="20.806" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.10+0-b96-7249189"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Android\Android Studio\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\nisha\IdeaProjects\testautomatioon"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\nisha\IdeaProjects\testautomatioon"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.10+0-b96-7249189"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\nisha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Android\Android Studio\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\nisha\AppData\Local\Android\Sdk\tools\bin;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Git\cmd;D:\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Android\Android Studio\jre\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\nisha\AppData\Local\Android\Sdk\tools;C:\Users\nisha\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\nisha\AppData\Local\Microsoft\WindowsApps;C:\Users\nisha\AppData\Roaming\npm;;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\nisha"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="nisha"/>
+    <property name="java.class.path" value="D:\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Android\Android Studio\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="D:\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test_search_products" classname="com.automation.tests.ProductSearchTests" time="7.652">
+    <failure message="The following asserts failed:&#10;	Search Result ProductName:Srhythm NC25 Active Noise Cancelling Headphones Bluetooth 5.0, ANC Stereo Headset Over-Ear with Hi-Fi,Mic,50H Playtime,Voice Assistant,Low Latency Game Mode contains no searched Productname:Srhythm NC25 Active Noise Cancelling Headphones Bluetooth 5.0, ANC Stereo Headset Over-Ear with Hi-Fi,Mic,50H Playtime,Voice Assistant,Low Latency Game Mode expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	Search Result ProductName:Srhythm NC25 Active Noise Cancelling Headphones Bluetooth 5.0, ANC Stereo Headset Over-Ear with Hi-Fi,Mic,50H Playtime,Voice Assistant,Low Latency Game Mode contains no searched Productname:Srhythm NC25 Active Noise Cancelling Headphones Bluetooth 5.0, ANC Stereo Headset Over-Ear with Hi-Fi,Mic,50H Playtime,Voice Assistant,Low Latency Game Mode expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.automation.page.ProductPage.verifyProductSearchResults(ProductPage.java:160)
+	at com.automation.tests.ProductSearchTests.test_search_products(ProductSearchTests.java:40)
+</failure>
+    <system-out>result Cell ://*[contains(@cel_widget_id,'MAIN-SEARCH_RESULTS-1')]
+dollarSymbol: $
+, dollarWholeValue: 35
+, dollarFractionValue: 99
+result Cell ://*[contains(@cel_widget_id,'MAIN-SEARCH_RESULTS-2')]
+dollarSymbol: $
+, dollarWholeValue: 59
+, dollarFractionValue: 99
+</system-out>
+    <system-err>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 45181
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 18, 2022 11:26:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase name="test_search_products" classname="com.automation.tests.ProductSearchTests" time="4.681">
+    <failure message="The following asserts failed:&#10;	Search Result ProductName:LG Electronics 34UB88-P 34&quot; LED/LCD Monitor 34X14 HDMI USB,black contains no searched Productname:LG Electronics 34UB88-P 34&quot; LED/LCD Monitor 34X14 HDMI USB,black expected [true] but found [false],&#10;	Search Result ProductName:LG 34&quot; UltraWide IPS FreeSync LED Monitor 2560 x 1080 21:9 34WL600-B contains no searched Productname:LG 34&quot; UltraWide IPS FreeSync LED Monitor 2560 x 1080 21:9 34WL600-B expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	Search Result ProductName:LG Electronics 34UB88-P 34" LED/LCD Monitor 34X14 HDMI USB,black contains no searched Productname:LG Electronics 34UB88-P 34" LED/LCD Monitor 34X14 HDMI USB,black expected [true] but found [false],
+	Search Result ProductName:LG 34" UltraWide IPS FreeSync LED Monitor 2560 x 1080 21:9 34WL600-B contains no searched Productname:LG 34" UltraWide IPS FreeSync LED Monitor 2560 x 1080 21:9 34WL600-B expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.automation.page.ProductPage.verifyProductSearchResults(ProductPage.java:160)
+	at com.automation.tests.ProductSearchTests.test_search_products(ProductSearchTests.java:40)
+</failure>
+    <system-out>result Cell ://*[contains(@cel_widget_id,'MAIN-SEARCH_RESULTS-1')]
+dollarSymbol: $
+, dollarWholeValue: 299
+, dollarFractionValue: 99
+result Cell ://*[contains(@cel_widget_id,'MAIN-SEARCH_RESULTS-2')]
+dollarSymbol: $
+, dollarWholeValue: 349
+, dollarFractionValue: 99
+</system-out>
+  </testcase>
+  <testcase name="test_sort_searched_product_by_price_high_to_low" classname="com.automation.tests.ProductSearchTests" time="8.473"/>
+</testsuite>
